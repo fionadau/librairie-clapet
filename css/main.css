@@ -520,7 +520,7 @@ font-family: font-family: 'Montserrat', sans-serif;
 font-size: 24px;
 font-weight: 200;
 padding-left: 12px;
-margin-right: 120px;
+
 margin-top: 50px; 
 
 
@@ -533,6 +533,27 @@ margin-top: 50px;
 text-align: right;
 font-size: 16px;
 margin-right: 120px;
+
+
+}
+
+.colonnes {
+
+  display: flex;
+  
+}
+
+.img-couverture {
+
+ min-width: 50%; 
+}
+
+.chapo-2 {
+  font-size: 25px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
 
 
 }
