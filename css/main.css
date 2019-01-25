@@ -95,6 +95,7 @@ button {
   padding: 0 15px;
   width: 960px;
   max-width: 100%;
+  text-align: center;
 }
 
 .text-container {
@@ -196,7 +197,7 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
 }
 
 .full-width {
@@ -256,8 +257,8 @@ button {
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
-  font-weight: 100;
+  font-size: 42px;
+  font-weight: 200;
   text-shadow: 1px 1px 5px #000;
 }
 
@@ -274,6 +275,9 @@ button {
   display: block;
   padding: 10px;
   color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+
 }
 .nav-main__link:hover {
   text-decoration: none;
@@ -332,14 +336,17 @@ button {
 
 .honey-pot__title {
   margin: 0;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -373,21 +380,25 @@ button {
 
 .news__date {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 18px;
   color: #e8a27d;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .news__title {
   margin: 0 0 15px;
-  font-weight: bold;
-  font-size: 2em;
+  font-size: 24px;
   line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 20px;
   line-height: 1.4;
+
 }
 
 .page-list .news {
