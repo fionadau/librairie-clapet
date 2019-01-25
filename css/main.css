@@ -310,6 +310,13 @@ button {
 }
 
 
+.Separateur_croix {
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+
+}
 /**
 * honey-pot
 */
@@ -497,6 +504,7 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 75px;
+  margin-top: 0px;
   
 }
