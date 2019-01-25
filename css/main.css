@@ -6,7 +6,6 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -198,6 +197,13 @@ button {
 
 .chapo {
   font-size: 25px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 85px;
+  margin: 0;
+  
+
 }
 
 .full-width {
@@ -222,9 +228,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  height:462px;
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -236,7 +241,6 @@ button {
   margin: 0;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 25px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -252,11 +256,13 @@ button {
 .header__title {
   font-size: 64px;
   margin: 0;
+  margin-bottom: 32px;
   font-weight: 700;
 }
 
 .header__subtitle {
   margin: 0;
+  margin-bottom: 18px;
   font-size: 42px;
   font-weight: 200;
   text-shadow: 1px 1px 5px #000;
@@ -269,11 +275,17 @@ button {
 
 .nav-main__item {
   display: inline-block;
+  margin:0px;
+
 }
 
 .nav-main__link {
   display: block;
   padding: 10px;
+  padding-top: 19px;
+  padding-bottom: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
   color: #fff;
   font-size: 18px;
   font-weight: 300;
