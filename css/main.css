@@ -15,7 +15,7 @@ body {
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -317,8 +317,8 @@ button {
 
 .Separateur_croix {
 
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   margin: auto;
   display: block;
 
@@ -631,7 +631,7 @@ text-align: center;
 .bitmap {
 
 
- min-width: 20%; 
+ min-width: 24%; 
  align-items: center;
 
 
@@ -642,3 +642,59 @@ text-align: center;
 
   width : 100%;
 }
+
+.title_page_actualite{
+
+  margin: 25px 0;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.texte_actualite_1 {
+
+margin-left: 40px; 
+}
+.texte_actualite_2 {
+
+  margin-right: 40px; 
+  margin-bottom: 56px;
+  }
+
+.bitmap2 {
+
+
+  min-width: 24%; 
+  align-items: center;
+  margin-top: 32px;
+
+ 
+ 
+ }
+ 
+ .bitmap2 img {
+ 
+   width : 100%;
+ }
+
+
+
+ .texte_actualite_3 {
+
+  margin-left: 40px; 
+
+ }
+
+ .bitmap3 {
+
+    min-width: 24%; 
+    align-items: center;
+    margin-top: 28px;
+  
+   
+   
+   }
+   
+   .bitmap3 img {
+   
+     width : 100%;
+   }
