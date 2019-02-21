@@ -623,4 +623,22 @@ text-align: center;
  width : 100%;  
 }
 
+/**
+* Actualité 
+*/
 
+
+.bitmap {
+
+
+ min-width: 20%; 
+ align-items: center;
+
+
+
+}
+
+.bitmap img {
+
+  width : 100%;
+}
