@@ -605,3 +605,22 @@ font-size: 16px;
 
 
 }
+
+.image_magasin {
+
+margin-top: 40px; 
+
+margin-right: auto; 
+margin-left : auto;
+padding:  15px;
+width: 1200px;
+max-width: 100%;
+text-align: center;
+}
+
+.map {
+
+ width : 100%;  
+}
+
+
