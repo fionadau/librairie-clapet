@@ -464,6 +464,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
+ 
 }
 
 .news-list .news-list__news--main {
@@ -712,3 +713,45 @@ margin-left: 40px;
    
      width : 100%;
    }
+
+   /**
+* Actualités et Rencontres 
+*/
+
+
+.news-list_rencontres {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+ 
+}
+
+.news-list .news-list__news--main_rencontre {
+  grid-column: span 3;
+}
+  
+.news-list__news_rencontre {
+  grid-column: span 1;
+}
+
+.news_big_rencontre {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+
+  grid-column: span 2;
+  border-bottom: 1px solid #b0b0c5; 
+  padding-bottom: 25px;
+
+}
+
+.news_big_texte_rencontre {
+
+  grid-column: span 2;
+
+  text-align: left;
+
+}
