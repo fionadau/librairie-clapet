@@ -15,7 +15,7 @@ body {
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -24,7 +24,8 @@ li {
 }
 
 p {
-  margin: 15px 0;
+
+ margin: 15px 0;
 }
 
 b, strong, optgroup {
@@ -95,6 +96,10 @@ button {
   width: 960px;
   max-width: 100%;
   text-align: center;
+}
+
+.container-big {
+  width: 1201px;
 }
 
 .text-container {
@@ -314,6 +319,8 @@ button {
 
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: auto;
+  display: block;
 
 
 }
@@ -520,7 +527,6 @@ font-family: font-family: 'Montserrat', sans-serif;
 font-size: 24px;
 font-weight: 200;
 padding-left: 12px;
-
 margin-top: 50px; 
 
 
@@ -532,7 +538,6 @@ margin-top: 50px;
 
 text-align: right;
 font-size: 16px;
-margin-right: 120px;
 
 
 }
@@ -540,12 +545,14 @@ margin-right: 120px;
 .colonnes {
 
   display: flex;
+
   
 }
 
 .img-couverture {
-
- min-width: 50%; 
+ margin-right: 40px; 
+ min-width: 45%; 
+ align-items: center; 
 }
 
 .chapo-2 {
@@ -554,6 +561,18 @@ margin-right: 120px;
   margin-left: auto;
   margin-right: auto;
   margin: 0;
+
+
+}
+
+.texte_2 {
+
+  margin: auto;
+  padding: 0 15px;
+  width: 960px;
+  max-width: 100%;
+  text-align: justify;
+  
 
 
 }
