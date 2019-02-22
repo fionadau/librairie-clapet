@@ -719,39 +719,81 @@ margin-left: 40px;
 */
 
 
-.news-list_rencontres {
+
+.news-list2 {
   display: grid;
   grid-gap: 35px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
+  margin: auto;
+  padding: 0 15px;
+  width: 1200px;
+  max-width: 100%;
+  text-align: center;
  
 }
 
-.news-list .news-list__news--main_rencontre {
-  grid-column: span 3;
+.news-list2 .news-list__news--main2 {
+  grid-column: span 4;
 }
   
-.news-list__news_rencontre {
+.news-list__news2 {
   grid-column: span 1;
 }
 
-.news_big_rencontre {
-  display: grid;
-  grid-gap: 35px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-
+.news_big2 {
   grid-column: span 2;
-  border-bottom: 1px solid #b0b0c5; 
-  padding-bottom: 25px;
+
 
 }
 
-.news_big_texte_rencontre {
+.news_big_texte2 {
 
   grid-column: span 2;
 
   text-align: left;
 
+}
+
+.news_big3 {
+
+
+
+  grid-column: span 2;
+
+
+
+}
+
+.news_big4 {
+
+
+
+  grid-column: span 2;
+
+
+
+}
+
+.news__text2 {
+
+
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: left;
+
+}
+
+
+
+.news__title2 {
+
+  margin: 0 0 15px;
+  font-size: 34px;
+  line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: left;
 }
