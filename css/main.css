@@ -98,6 +98,13 @@ button {
   text-align: center;
 }
 
+.container2 {
+  margin: auto;
+  padding: 0 15px;
+  width: 1200px;
+  max-width: 100%;
+  text-align: center;
+}
 .container-big {
   width: 1201px;
 }
@@ -241,6 +248,7 @@ button {
 }
 
 
+
 .header__content {
   display: block;
   margin: 0;
@@ -263,6 +271,12 @@ button {
   margin: 0;
   margin-bottom: 32px;
   font-weight: 700;
+  transition: 1s transform;
+}
+
+.header__title:hover {
+
+  Transform: translateY(-50px) rotate(10deg) ;
 }
 
 .header__subtitle {
@@ -352,10 +366,12 @@ button {
   display: inline-block;
   margin-bottom: 10px;
   filter: grayscale(0);
+  transition: 1s transform;
 }
 
 .honey-pot__thumbnail:hover {
   filter: grayscale(60%);
+  transform: translateY(-40px);
 }
 
 .honey-pot__thumbnail img {
