@@ -348,6 +348,14 @@ button {
   justify-content: space-around;
 }
 
+@media (max-width: 780px) {
+
+
+  .honey-pot-list {
+
+    display: block;
+  }
+}
 .honey-pot {
   display: inline-block;
   margin: 0 30px 35px 30px;
